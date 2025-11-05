@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+categorias = ['Eletrônicos', 'Vestuário', 'Alimentos']
+valores = [15000, 8000, 5000]
+
+plt.pie(valores, labels=categorias, autopct='%1.1f%%', startangle=90)
+plt.title('Proporção de Categorias')
+plt.axis('equal')
+plt.show()
