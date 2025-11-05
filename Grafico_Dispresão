@@ -1,0 +1,11 @@
+import matplotlib.pyplot as plt
+precos = [50,  120, 300, 80, 20]
+estoque = [80, 25, 10, 70, 150]
+
+plt.scatter(precos, estoque)
+plt.title('Preços VS. Quantidade')
+plt.xlabel('Preços')
+plt.ylabel('Quantidade')
+plt.grid(True, linestyle='--')
+
+plt.show()
