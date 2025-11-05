@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+produtos = ['Teclado', 'Mouse', 'Monitor','Webcam']
+quantid = [50, 75, 30, 60]
+
+plt.bar(produtos, quantid)
+plt.title("Comparação produtos nos estoques")
+plt.xlabel("Produtos")
+plt.ylabel("Quantidades")
+plt.show()
